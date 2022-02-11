@@ -3,7 +3,7 @@ export const environment = {
     "mysql": {
       "type": "mysql",
       "hostname": "database host",
-      "port": 3306,
+      "port": process.env.PORT || 3306,
       "database": "database name",
       "username": "database user",
       "password": "database password"
