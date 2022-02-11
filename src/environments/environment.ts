@@ -15,7 +15,7 @@ export const environment = {
     },
     "sqlite": {
       "type": "sqlite",
-      "port": process.env.PORT || 3000,
+      "port": process.env.PORT || 3306,
       "database": "zenchain_bot_sqlite.db",
       "insecureAuth": true,
       "entities": [
