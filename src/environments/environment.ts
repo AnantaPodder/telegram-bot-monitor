@@ -3,7 +3,7 @@ export const environment = {
     "mysql": {
       "type": "mysql",
       "hostname": "localhost",
-      
+      "port": 3306,
       "database": "zenchain_bot",
       "username": "zenchain_bot_user",
       "password": "strong_password",
