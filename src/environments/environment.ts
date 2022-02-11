@@ -24,8 +24,8 @@ export const environment = {
     },
     "useDatabase": "sqlite"
   },
-  "botToken": "555584786:AAGCQHeBuid5YvkX8LBcS2ySJ7KqhEHdiIc",
-  "chatId": "-294145247",
+  "botToken": "5191166617:AAEIE9QQkGVSDXvYSp8Ws2-eKFgD_kLAHzE",
+  "chatId": "-1001650320790",
   "checkMemberInterval": "5000",
   "rules": {
     "checkAdmin": {
