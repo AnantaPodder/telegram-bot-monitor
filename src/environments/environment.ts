@@ -1,9 +1,11 @@
+import os from 'os';
+
 export const environment = {
   "database": {
     "mysql": {
       "type": "mysql",
       "hostname": "localhost",
-      "port": 3306,
+      "port": .listen(process.env.PORT || 5000),
       "database": "zenchain_bot",
       "username": "zenchain_bot_user",
       "password": "strong_password",
