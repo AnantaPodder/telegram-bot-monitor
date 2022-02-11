@@ -9,7 +9,8 @@ export class BotConfigurator {
     constructor() {
         this.configuration = environment;
         this.configuration.validChars = /[^\x20-\x7E]+/g        
-        this.botMessage = new BotMessage()     
+        this.botMessage = new BotMessage()   
+        this.port=process.env.PORT || 3002
     } 
 
     public getConfiguration() {
