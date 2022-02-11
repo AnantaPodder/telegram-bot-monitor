@@ -2,7 +2,7 @@ export const environment = {
   "database": {
     "mysql": {
       "type": "mysql",
-      "hostname": "localhost",
+      "hostname": "0.0.0.0",
       "port": process.env.PORT || 3306,
       "database": "zenchain_bot",
       "username": "zenchain_bot_user",
@@ -15,6 +15,7 @@ export const environment = {
     },
     "sqlite": {
       "type": "sqlite",
+      "hostname": "0.0.0.0",
       "port": process.env.PORT || 3306,
       "database": "zenchain_bot_sqlite.db",
       "insecureAuth": true,
